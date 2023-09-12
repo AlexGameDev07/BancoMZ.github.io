@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Banco MZ</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/Estilo.css">
+    <link rel="shortcut icon" href="img/bancodibujo.png" type="image/x-icon">
+  </head>
+  
+  <body>
+
+    <Header>
+    <h1>Banco MZ</h1>
+
+    <img src="img/bancodibujo.png" alt="nada">
+
+    </Header>
+<br>
+    <div id="div1">
+    <input style="font-size: 20px;" id="txt1" type="number"  placeholder="Ingresa cantidad a retirar ($):">
+    <input style="font-size: 20px;" id="txt2" type="text" placeholder="Ingresa tu nombre:">
+    </div>
+
+    <br>
+
+    <div id="Aviso" class="alert" role="alert">
+      <p style="text-align: center; color: white; font-size: 25px;">Realizar Retiro</p>
+      <hr>
+      <p style="color: white; font-size: 20px;" class="mb-0" id="Saludo">Hola ... , tu retiro por el monto de: .... Ha sido realizado con exito!</p>
+    </div>
+
+
+
+<button style="font-size: 20px;" onclick="CalcularBilletes()"class="btn btn-success">Realiza tu retiro</button>
+<br>
+<br>
+
+<div id="megaid">
+  <!--Div 1-->
+<div class="alert alert-success DivAns" role="alert">
+  Billetes de 100 $: <span id="Ans100"><u style="background-color: #c9c9c9;">X</u></span>
+</div>
+<!--Div 2-->
+<div class="alert alert-success DivAns" role="alert">
+  Billetes de 50 $: <span id="Ans50"><u style="background-color: #c9c9c9;">X</u></span>
+</div>
+<!--Div 3-->
+<div class="alert alert-success DivAns" role="alert">
+  Billetes de 20 $: <span id="Ans20"><u style="background-color: #c9c9c9;">X</u></span>
+</div>
+<!--Div 4-->
+<div class="alert alert-success DivAns" role="alert">
+  Billetes de 10 $: <span id="Ans10"><u style="background-color: #c9c9c9;">X</u></span>
+</div>
+<!--Div 5-->
+<div class="alert alert-success DivAns" role="alert">
+  Billetes de 5 $: <span id="Ans5"><u style="background-color: #c9c9c9;">X</u></span>
+</div>
+<!--Div 6-->
+<div class="alert alert-success DivAns" role="alert">
+  Billetes de 1 $: <span id="Ans1"><u style="background-color: #c9c9c9;">X</u></span>
+</div>
+
+</div>
+
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="js/Main.js"></script>
+  </body>
+</html>

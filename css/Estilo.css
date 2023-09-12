@@ -1,0 +1,64 @@
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #3d4456;
+
+    font-family: Poppins;
+}
+
+h1{
+    
+    color: white;
+    font-size: 75px;
+    margin: 0;
+}
+
+header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+img{
+    width: 200px;
+}
+
+#div1{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+    height: 30%;
+    
+
+    
+}
+
+#txt1{
+    width: 25%;
+    height:32px;
+    margin-left: 22%;
+    
+}
+
+#txt2{
+    width: 25%;
+    height:32px;
+    margin-right: 22%;
+}
+
+#megaid{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 600px;
+    
+    justify-content: space-around;
+    
+}
+
+
+
